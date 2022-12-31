@@ -45,6 +45,8 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
       <span>Tela de configuração do baralho</span>
       <img alt="Tela de configuração de baralho" src=".github/deck.png" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="1500">
       <span>Tela de ranking de usuários</span>
       <img alt="Tela de ranking de usuários" src=".github/leaderboard.png" />
