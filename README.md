@@ -30,32 +30,32 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 <table>
   <tr>
     <td align="center" width="1500">
+      <span>Tela de login</span>
     <img alt="Tela de Login" src=".github/login.png" />
-      <span>HTML</span>
     </td>
     <td align="center" width="1500">
+      <span>Tela de cadastro</span>
         <img alt="Tela de Cadastro" src=".github/register.png" />
-      <span>CSS</span>
     </td>
   </tr>
   <tr>
     <td align="center" width="1500">
+      <span>Tela de configuração do baralho</span>
       <img alt="Tela de configuração de baralho" src=".github/deck.png" />
-      <span>npm</span>
     </td>
     <td align="center" width="1500">
+      <span>Tela de ranking de usuários</span>
       <img alt="Tela de ranking de usuários" src=".github/leaderboard.png" />
-      <span>npm</span>
     </td>
   </tr>
   <tr>
     <td align="center" width="1500">
+      <span>Tela de perfil</span>
       <img alt="Tela de perfil de usuário" src=".github/profile.png" />
-      <span>PHP</span>
     </td>
     <td align="center" width="1500">
+      <span>Tela do jogo da memória funcionando</span>
       <img alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
-      <span>PHP</span>
     </td>
   </tr>
 </table>
