@@ -29,39 +29,39 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 ## ✅ Demonstração
 <table>
   <tr>
-    <td align="center" width="1500">
+    <td align="center" width="750">
       <span>Tela de login</span>
     <img alt="Tela de Login" src=".github/login.png" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="1500">
+    <td align="center" width="750">
       <span>Tela de cadastro</span>
         <img alt="Tela de Cadastro" src=".github/register.png" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="1500">
+    <td align="center" width="750">
       <span>Tela de configuração do baralho</span>
       <img alt="Tela de configuração de baralho" src=".github/deck.png" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="1500">
+    <td align="center" width="750">
       <span>Tela de ranking de usuários</span>
       <img alt="Tela de ranking de usuários" src=".github/leaderboard.png" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="1500">
+    <td align="center" width="750">
       <span>Tela de perfil</span>
       <img alt="Tela de perfil de usuário" src=".github/profile.png" />
     </td>
   </tr>
   <tr>
-    <td align="center" width="1500">
+    <td align="center" width="750">
       <span>Tela do jogo da memória funcionando</span>
-      <img alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
+      <img width="750" alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
     </td>
   </tr>
 </table>
