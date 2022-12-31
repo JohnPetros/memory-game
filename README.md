@@ -30,37 +30,37 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 <table align="center">
   <tr>
     <td align="center" width="750">
-      <span>Tela de login</span>
+    <span>Tela de login <br/></span>
     <img alt="Tela de Login" src=".github/login.png" />
     </td>
   </tr>
   <tr>
     <td align="center" width="750">
-      <span>Tela de cadastro</span>
+      <span>Tela de cadastro <br/></span>
         <img alt="Tela de Cadastro" src=".github/register.png" />
     </td>
   </tr>
   <tr>
     <td align="center" width="750">
-      <span>Tela de configuração do baralho</span>
+      <span>Tela de configuração do baralho <br/></span>
       <img alt="Tela de configuração de baralho" src=".github/deck.png" />
     </td>
   </tr>
   <tr>
     <td align="center" width="750">
-      <span>Tela de ranking de usuários</span>
+      <span>Tela de ranking de usuários <br/></span>
       <img alt="Tela de ranking de usuários" src=".github/leaderboard.png" />
     </td>
   </tr>
   <tr>
     <td align="center" width="750">
-      <span>Tela de perfil</span>
+      <span>Tela de perfil <br/></span>
       <img alt="Tela de perfil de usuário" src=".github/profile.png" />
     </td>
   </tr>
   <tr>
     <td align="center" width="750">
-      <span>Tela do jogo da memória funcionando</span>
+      <span>Tela do jogo da memória funcionando <br/></span>
       <img width="750" alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
     </td>
   </tr>
@@ -100,7 +100,7 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 
 ---
 
-## 🚀 Tecnologias
+## 🛠️ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias
 
@@ -123,7 +123,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 
 O deploy desse projeto foi realizado através da [InfinityFree](https://www.infinityfree.net/), que é uma plataforma que a hospedagem gratuita de aplicações web junto com banco de dados
 
-## 🛠️ Como executar o projeto
+## 🚀 Como executar o projeto
 
 ### Pré-requesitos
 
@@ -135,7 +135,6 @@ Antes de baixar o projeto você vai precisar ter instalado na sua máquina as se
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 📟 Rodando a aplicação
-   > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
 ```bash
 # Clone este repositório
@@ -158,7 +157,7 @@ $dbname = "nome do banco de dados"
 # Execute a aplicação em um servidor local
 ```
 
-## 💪 Como contribuir
+## 💪 Como contribuir com o projeto
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
