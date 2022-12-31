@@ -6,7 +6,6 @@
    <a href="https://github.com/JohnPetros">
       <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-yellow">
    </a>
-   <img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/JohnPetros/memory-game">
    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/memory-game">
    <a href="https://github.com/JohnPetros/memory-game/commits/main">
       <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/memory-game">
