@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+
+form {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  width: 45rem;
+  max-width: 90%;
+  border-radius: 1.2rem;
+  border-top: 0.6rem solid var(--blue);
+  box-shadow: 0 6px 9px rgba(12, 64, 110, 0.1);
+}
+
+form header {
+  margin-bottom: 2.4rem;
+}
+
+.form-group {
+  display: flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+strong {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form i {
+  position: absolute;
+  font-size: 2rem;
+  top: 45%;
+  right: 18%;
+  visibility: hidden;
+  transition: 0.3s ease-out;
+}
+
+.form-group.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-group.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-group.success input {
+  border-color: #2ecc71;
+}
+
+.form-group.error input {
+  border-color: #e74c3c;
+}
+
+
+.form-group.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+input {
+  width: 40rem;
+  max-width: 70%;
+  border-radius: 10rem;
+  border: 0.2rem solid var(--blue);
+  outline: none;
+  padding: 1rem 2.5rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--blue);
+  transition: 0.3s ease-out;
+}
+
+input:focus
+ {
+  transform: scale(1.1) translateY(-8px);
+  box-shadow: 0 3px 6px rgba(12, 64, 110, 0.1);
+  border: 2px solid var(--blue);
+}
+
+input:focus ~ i {
+  transform: scale(1.1) translateY(-8px);
+
+}
+
+small {
+  font-size: 1.4rem;
+  visibility: hidden;
+}
+
+button {
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  outline: none;
+  border: 0.1rem solid var(--blue);
+  box-shadow: 0 3px 0 var(--blue);
+  cursor: pointer;
+  transition: 0.15s ease-out;
+}
+
+button:hover {
+  background-color: inherit;
+  color: var(--blue);
+}
+
+a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+a:hover {
+  text-decoration: underline;
+}

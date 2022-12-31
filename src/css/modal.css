@@ -1,0 +1,108 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -15%);
+  width: 40rem;
+  max-width: 90%;
+  box-shadow: var(--shadow);
+  background-color: var(--light);
+  border-radius: var(--border-radius);
+  transition: all 0.5s ease;
+  z-index: 15;
+}
+
+.modal-header {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
+}
+
+.modal-body {
+  background-color: var(--blue);
+  padding: 2.5rem 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+}
+
+.modal-body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.modal-body li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body .username {
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.modal-footer {
+  background-color: #333;
+  border-top: solid 1px var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+}
+
+.modal-footer .buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.modal-footer .button {
+  cursor: pointer;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  font-size: 1.5rem;
+  border-radius: var(--border-radius);
+  transition: 0.2s ease;
+}
+
+.modal-footer .button:hover {
+  opacity: 0.8;
+}
+
+.modal-footer .success {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.modal-footer .primary {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.modal-footer .danger {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.modal-footer .white {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+.fade {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.582);
+  transition: 0.5s;
+}
+
+.modal.hidden {
+  top: -10%;
+}

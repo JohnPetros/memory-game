@@ -1,0 +1,138 @@
+.game {
+  display: grid;
+  max-width: 95%;
+  grid-template-columns: repeat(6, 12rem);
+  gap: 1.5rem;
+  padding: 2rem 2.5rem;
+
+  background: var(--blue);
+  border-radius: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.game-board {
+  display: flex;
+  align-items: center;
+  max-width: 95%;
+  width: 82rem;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1.2rem 1rem;
+
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.game-board .moves {
+  margin-right: auto;
+}
+
+.game-board .restart {
+  background-color: var(--blue);
+  border-radius: var(--border-radius);
+  color: var(--light);
+  padding: 1rem 1.2rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  transition: opacity .2s ease;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.game-board .restart:hover {
+  opacity: .8;
+}
+
+.game .card {
+  height: 16rem;
+  border-radius: 5px;
+  position: relative;
+  transition: all 0.35s ease;
+  transform-style: preserve-3d;
+  background-color: var(--gray);
+}
+
+.game .card .face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.front {
+  transform: rotateY(180deg);
+}
+
+.back {
+  background-color: var(--dark);
+  backface-visibility: hidden;
+  font-size: 1.2rem;
+  padding: 0 .8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+}
+
+.flip {
+  transform: rotateY(180deg);
+  pointer-events: none;
+}
+
+.match  {
+  filter: saturate(0);
+  opacity: 0.5;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+@media (max-width: 959px) {
+  .game {
+    width: 90%;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+  }
+
+  .game .card {
+    height: 14rem;
+  }
+  .back {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 760px) {
+  .game {
+    margin-top: -4rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    width: 100%;
+  }
+  
+  .game .card {
+    height: 10rem;
+  }
+  .game-board  {
+    font-size: 1.4rem;
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 444px) {
+  .game-board   {
+   flex-direction: column;
+   gap: .5rem;
+  }
+  .game-board .moves {
+    margin: 0;
+  }
+}

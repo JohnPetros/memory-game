@@ -1,0 +1,109 @@
+.deck {
+  display: grid;
+  grid-template-columns: repeat(3, 15rem);
+  column-gap: 6rem;
+  row-gap: 4rem;
+  padding: 1rem 1.5rem;
+}
+
+.deck .card,
+.deck #template-card {
+  height: 20rem;
+  border: 0.5rem solid var(--blue);
+  border-radius: 1.2rem;
+}
+
+.deck .card {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.2s ease;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.05);
+  background-blend-mode: color;
+}
+
+.deck .card .delete {
+  background-color: inherit;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+  color: var(--red);
+}
+
+.deck .card:hover {
+  transform: scale(1.1);
+}
+
+.deck .card:hover .delete {
+  display: block;
+}
+
+.deck #template-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5rem dashed var(--dark);
+}
+
+.deck label {
+  font-size: 4rem;
+  color: var(--dark);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.deck label:hover {
+  transform: scale(1.1);
+  color: var(--blue);
+}
+
+.cards-count {
+  color: var(--blue);
+  font-size: 2.4rem;
+  margin-left: 0.5rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.delete-all {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.delete-all:hover {
+  box-shadow: 0 0 5px var(--red);
+}
+
+@media (max-width: 596px) {
+  .deck {
+    grid-template-columns: repeat(3, 10rem);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin-top: -2.5rem;
+  }
+  .deck .card,
+  .deck #template-card {
+    height: 15rem;
+  }
+  .heading {
+    flex-direction: column;
+    margin-top: -2.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+}
