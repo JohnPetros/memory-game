@@ -27,8 +27,8 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 ---
 
 ## ✅ Demonstração
-<table>
-  <tr align="center">
+<table align="center">
+  <tr >
     <td align="center" width="550">
       <span>Tela de login</span>
     <img alt="Tela de Login" src=".github/login.png" />
