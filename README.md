@@ -70,16 +70,16 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 
 ## ✨ Funcionalidades
 
-- Cadastro e login de usuários
-- Adição e deleção de cartas no baralho do usuário, tendo que conter precisamente 6 cartas para começar o jogo
-- Jogo da memória com as cartas do baralho do usuário, que funciona da seguinte forma: todas as cartas começam viradas para baixo, ao desvirar uma carta, o jogador pode virar outra, caso sejam a mesma, ambas ficam desabilitadas, caso contrário as duas são viradas novamente para baixo. O usuário ganha o jogo caso todas as cartas ficam desabilitadas 
-- O usuário pode reiniciar o jogo sempre que quiser
-- Contagem em tempo real tanto dos movimentos de virada de cartas, quanto do tempo percorrido durante o jogo
-- Sistema de ranking de usuários com base no recorde de tempo que cada um completou o jogo
-- O usuário pode alterar seus dados (nome de usuário e avatar)
-- Sistema de validação em todos os formulários da aplicação
-- mecanismo de toast message que dá feedback pra cada ação de sucesso ou de erro do usuário
-- Layout responsivo
+[x] Cadastro e login de usuários
+[x] Adição e deleção de cartas no baralho do usuário, tendo que conter precisamente 6 cartas para começar o jogo
+[x] Jogo da memória com as cartas do baralho do usuário, que funciona da seguinte forma: todas as cartas começam viradas para baixo, ao desvirar uma carta, o jogador pode virar outra, caso sejam a mesma, ambas ficam desabilitadas, caso contrário as duas são viradas novamente para baixo. O usuário ganha o jogo caso todas as cartas ficam desabilitadas 
+[x] O usuário pode reiniciar o jogo sempre que quiser
+[x] Contagem em tempo real tanto dos movimentos de virada de cartas, quanto do tempo percorrido durante o jogo
+[x] Sistema de ranking de usuários com base no recorde de tempo que cada um completou o jogo
+[x] O usuário pode alterar seus dados (nome de usuário e avatar)
+[x] Sistema de validação em todos os formulários da aplicação
+[x] mecanismo de toast message que dá feedback pra cada ação de sucesso ou de erro do usuário
+[x] Layout responsivo
 
 ---
 
