@@ -89,7 +89,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 
 ---
 
-## Como executar o projeto
+## ⚙️ Deploy
+
+O deploy desse projeto foi realizado através da [InfinityFree](https://www.infinityfree.net/), que é uma plataforma que a hospedagem gratuita de aplicações web junto com banco de dados
+
+## 🛠️ Como executar o projeto
 
 ### Pré-requesitos
 
