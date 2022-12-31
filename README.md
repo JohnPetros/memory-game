@@ -184,4 +184,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-Feito com 💜 by João Pedro 👋🏻
+<p align="center">
+   Feito com 💜 by João Pedro 👋🏻
+</p>
