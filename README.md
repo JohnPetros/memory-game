@@ -19,6 +19,7 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/memory-game?style=social">
 </div>
 
+<br>
 
 ## 💻 Projeto
 
@@ -28,12 +29,12 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 
 ## ✅ Demonstração
 <div align="center">
-   <img width="250" alt="Tela de Login" src=".github/login.png" />
-   <img width="250" alt="Tela de Cadastro" src=".github/register.png" />
-   <img width="250" alt="Tela de configuração de baralho" src=".github/deck.png" />
-   <img width="250" alt="Tela de ranking de usuários" src=".github/leaderboard.png" />
-   <img width="250" alt="Tela de perfil de usuário" src=".github/profile.png" />
-   <img width="250" alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
+   <img width="750" alt="Tela de Login" src=".github/login.png" />
+   <img width="750" alt="Tela de Cadastro" src=".github/register.png" />
+   <img width="750" alt="Tela de configuração de baralho" src=".github/deck.png" />
+   <img width="750" alt="Tela de ranking de usuários" src=".github/leaderboard.png" />
+   <img width="750" alt="Tela de perfil de usuário" src=".github/profile.png" />
+   <img width="750" alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
 </div>
 
 ---
