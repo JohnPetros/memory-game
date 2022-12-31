@@ -33,6 +33,8 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
       <span>Tela de login</span>
     <img alt="Tela de Login" src=".github/login.png" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="1500">
       <span>Tela de cadastro</span>
         <img alt="Tela de Cadastro" src=".github/register.png" />
@@ -53,6 +55,8 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
       <span>Tela de perfil</span>
       <img alt="Tela de perfil de usuário" src=".github/profile.png" />
     </td>
+  </tr>
+  <tr>
     <td align="center" width="1500">
       <span>Tela do jogo da memória funcionando</span>
       <img alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
