@@ -27,14 +27,15 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 ---
 
 ## ✅ Demonstração
-| Login                                                                            | Cadastro                                                                            |   |   |   |   |   |   |   |   |
-|:--------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img width="550" alt="Tela de Login" src=".github/login.png" />                  | <img width="550" alt="Tela de Cadastro" src=".github/register.png" />               |   |   |   |   |   |   |   |   |
-| Baralho                                                                          | Ranking                                                                             |   |   |   |   |   |   |   |   |
-| <img width="550" alt="Tela de configuração de baralho" src=".github/deck.png" /> | <img width="550" alt="Tela de ranking de usuários" src=".github/leaderboard.png" /> |   |   |   |   |   |   |   |   |
-| Perfil                                                                           | Jogo da memória                                                                     |   |   |   |   |   |   |   |   |
-| <img width="550" alt="Tela de perfil de usuário" src=".github/profile.png" />    | <img width="550" alt="Jogo da memória funcionando" src=".github/memory-game.gif" /> |   |   |   |   |   |   |   |   |
-|                                                                                  |                                     
+|  Login |  Login |
+| - | - |
+|<img width="550" alt="Tela de Login" src=".github/login.png" />|<img width="550" alt="Tela de Cadastro" src=".github/register.png" />   |
+|  Login |  Login |
+| - | - |
+|<img width="550" alt="Tela de configuração de baralho" src=".github/deck.png" />|<img width="550" alt="Tela de ranking de usuários" src=".github/leaderboard.png" />|
+|  Login | Login  |
+| - | - |
+|<img width="550" alt="Tela de perfil de usuário" src=".github/profile.png" />|<img width="550" alt="Jogo da memória funcionando" src=".github/memory-game.gif" />|
 
 ---
 
