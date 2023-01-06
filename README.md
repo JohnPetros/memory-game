@@ -157,6 +157,13 @@ $dbname = "nome do banco de dados"
 # Execute a aplicação em um servidor local
 ```
 
+ > Como a aplicação exige login, você pode acessar o sistema usando uma conta de usuário teste com as credenciais abaixo
+ - Nome de usuário: **Teste123**
+ - Senha: **1234567**
+ 
+---
+<br>
+
 ## 💪 Como contribuir com o projeto
 
 1. Faça um **fork** do projeto.
