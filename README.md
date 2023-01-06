@@ -61,7 +61,7 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
   <tr>
     <td align="center" width="700">
       <span>Tela do jogo da memória funcionando <br/></span>
-      <img alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
+      <img width="700" alt="Jogo da memória funcionando" src=".github/memory-game.gif" />
     </td>
   </tr>
 </table>
@@ -121,7 +121,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ⚙️ Deploy
 
-O deploy desse projeto foi realizado através da [InfinityFree](https://www.infinityfree.net/), que é uma plataforma que permite a hospedagem gratuita de aplicações web juntamente com banco de dados
+O deploy desse projeto foi realizado através da [InfinityFree](https://www.infinityfree.net/), que é uma plataforma que permite a hospedagem gratuita de aplicações web juntamentr com banco de dados
 
 ---
 
