@@ -22,7 +22,7 @@
 
 ## 💻 Projeto
 
-Projeto web de **jogo da memória** em PHP com sistema de usuários e de personalização do próprio baralho do jogo. Originalmente, esse projeto foi desenvolvido como dever de casa para a disciplina de programação web na Etec com o intuito de praticar o upload e gravação de imagens externas em um banco de dados com PHP, contudo, tomei a liberdade de acrescentar diversas outras funcionalidades, transformando-o em um jogo da memória customizado.
+Projeto web de **jogo da memória** em PHP com sistema de usuários e de personalização do próprio baralho do jogo. Originalmente, esse projeto foi desenvolvido como trabalho para a disciplina de programação web na Etec com o intuito de praticar o upload e gravação de imagens externas em um banco de dados com PHP, contudo tomei a liberdade de acrescentar diversas outras funcionalidades, transformando-o em um jogo da memória customizado.
 
 ---
 
@@ -102,7 +102,7 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 
 ## 🛠️ Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 #### **Back-end**
 
@@ -122,6 +122,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias
 ## ⚙️ Deploy
 
 O deploy desse projeto foi realizado através da [InfinityFree](https://www.infinityfree.net/), que é uma plataforma que a hospedagem gratuita de aplicações web junto com banco de dados
+
+---
 
 ## 🚀 Como executar o projeto
 
@@ -157,12 +159,11 @@ $dbname = "nome do banco de dados"
 # Execute a aplicação em um servidor local
 ```
 
- > Como a aplicação exige login, você pode acessar o sistema usando uma conta de usuário teste com as credenciais abaixo
+ > Como a aplicação exige login, você pode acessar o sistema usando uma conta de usuário teste com as credenciais abaixo:
  - Nome de usuário: **Teste123**
  - Senha: **1234567**
  
 ---
-<br>
 
 ## 💪 Como contribuir com o projeto
 
