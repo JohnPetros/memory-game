@@ -70,16 +70,16 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 
 ## ✨ Funcionalidades
 
-[x] Cadastro e login de usuários
-[x] Adição e deleção de cartas no baralho do usuário, tendo que conter precisamente 6 cartas para começar o jogo
-[x] Jogo da memória com as cartas do baralho do usuário, que funciona da seguinte forma: todas as cartas começam viradas para baixo, ao desvirar uma carta, o jogador pode virar outra, caso sejam a mesma, ambas ficam desabilitadas, caso contrário as duas são viradas novamente para baixo. O usuário ganha o jogo caso todas as cartas ficam desabilitadas 
-[x] O usuário pode reiniciar o jogo sempre que quiser
-[x] Contagem em tempo real tanto dos movimentos de virada de cartas, quanto do tempo percorrido durante o jogo
-[x] Sistema de ranking de usuários com base no recorde de tempo que cada um completou o jogo
-[x] O usuário pode alterar seus dados (nome de usuário e avatar)
-[x] Sistema de validação em todos os formulários da aplicação
-[x] mecanismo de toast message que dá feedback pra cada ação de sucesso ou de erro do usuário
-[x] Layout responsivo
+- [x] Cadastro e login de usuários
+- [x] Adição e deleção de cartas no baralho do usuário, tendo que conter precisamente 6 cartas para começar o jogo
+- [x] Jogo da memória com as cartas do baralho do usuário, que funciona da seguinte forma: todas as cartas começam viradas para baixo, ao desvirar uma carta, o jogador pode virar outra, caso sejam a mesma, ambas ficam desabilitadas, caso contrário as duas são viradas novamente para baixo. O usuário ganha o jogo caso todas as cartas ficam desabilitadas 
+- [x] O usuário pode reiniciar o jogo sempre que quiser
+- [x] Contagem em tempo real tanto dos movimentos de virada de cartas, quanto do tempo percorrido durante o jogo
+- [x] Sistema de ranking de usuários com base no recorde de tempo que cada um completou o jogo
+- [x] O usuário pode alterar seus dados (nome de usuário e avatar)
+- [x] Sistema de validação em todos os formulários da aplicação
+- [x] mecanismo de toast message que dá feedback pra cada ação de sucesso ou de erro do usuário
+- [x] Layout responsivo
 
 ---
 
@@ -87,7 +87,7 @@ Projeto web de **jogo da memória** em PHP com sistema de usuários e de persona
 
 - Sistema de login e cadastro com PHP
 - Upload de arquivos em PHP, bem como a manipulção desses arquivos dentro do sistema
-- Como criar relacionamento entre tabelas com PHPMyAdmin
+- Como criar relacionamento entre tabelas com **PHPMyAdmin**
 - Como descobrir a ocorrência de uma determinada string em um deternimando texto com função strpos do PHP
 - Como permitir a entrada de múltiplos dados de um único input 
 - Validação de formulário com JS
@@ -148,7 +148,7 @@ $ cd /src/db
 
 # Procure o arquivos sql na pasta db para importá-los no MySQL
 
-# Procure o arquivo config.php na pasta db e configure as variáveis de conexão do bando de dados
+# Procure o arquivo connect.php na pasta db e configure as variáveis de conexão do bando de dados
 $dbhost = "host do banco de dados"
 $dbuser = "nome de usuário do banco de dados"
 $dbpassword = "senha do banco de dados"
@@ -185,5 +185,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <p align="center">
-   Feito com 💜 by João Pedro 👋🏻
+   Feito com 💜 by John Petros 👋🏻
 </p>
